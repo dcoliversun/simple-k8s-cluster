@@ -1,0 +1,7 @@
+server:
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    path: /
+    hosts:
+      - localhost

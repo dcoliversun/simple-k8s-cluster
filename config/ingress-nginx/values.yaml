@@ -1,0 +1,9 @@
+controller:
+  service:
+    enableHttps: false
+    type: NodePort
+    nodePorts:
+      http: 30123
+
+  admissionWebhooks:
+    enabled: false
